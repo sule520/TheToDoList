@@ -4,6 +4,5 @@ public class Main {
     public static void main(String[] args) {
          ToDoList td1 =new ToDoList("Frühstück für Kinder machen", false,1 );
 
-        System.out.println(td1);
     }
 }

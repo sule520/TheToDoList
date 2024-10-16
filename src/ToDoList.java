@@ -9,5 +9,14 @@ public class ToDoList {
         this.aufgabe = aufgabe;
         this.erledigt = erledigt;
         this.prio = prio;
+        @Override
+                public String toString() {
+            return "ToDoList{" +
+                    "aufgabe=' "+ aufgabe +'\'' +
+                    ",ldt=" +ldt+
+                    ",erledigt=" +erledigt +
+                    ",prio="+prio+
+                      '}';
+        }
     }
 }
